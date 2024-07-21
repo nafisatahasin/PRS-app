@@ -14,7 +14,7 @@ Convert Data Types: Ensure Price, Review Count, and Rating are numeric.
 
 4.Exploratory Data Analysis(EDA):Performing EDA to et a visual representation of the dataset.
 
-5.Model Training and Evaluation
+5.Model Training and Evaluation 
 Split the data into training and testing sets
 Train the model using Linear Reggression,Logistic Reression and SVM.
 Evaluate Model: Assess the model's performance using metrics like accuracy, precision, recall, and F1 score.
