@@ -23,4 +23,4 @@ Evaluate Model: Assess the model's performance using metrics like accuracy, prec
 7. Product Recommendation
 User Input: Allow the user to input a product brand.
 Recommend Products: Filter and sort the products by the given brand and recommend the top 10 based on predicted scores.
-Summary: The SVM-based product recommendation system efficiently identifies top products based on user preferences, leveraging SVM's strengths in handling non-linear relationships and maximizing class separation margins.
+Summary: The SVM-based product recommendation system efficiently identifies top products based on user preferences, leveraging SVM's strengths in handling non-linear relationships and maximizing class separation margins. 
