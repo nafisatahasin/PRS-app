@@ -12,7 +12,7 @@ Drop Irrelevant Columns: Remove columns that are not necessary for the analysis.
 Handle Missing Values: Impute or drop rows with missing values in essential columns.
 Convert Data Types: Ensure Price, Review Count, and Rating are numeric.
 
- 4.Exploratory Data Analysis(EDA):Performing EDA to et a visual representation of the dataset.
+4.Exploratory Data Analysis(EDA):Performing EDA to et a visual representation of the dataset.
 
  5.Model Training and Evaluation 
 Split the data into training and testing sets
