@@ -12,9 +12,9 @@ Drop Irrelevant Columns: Remove columns that are not necessary for the analysis.
 Handle Missing Values: Impute or drop rows with missing values in essential columns.
 Convert Data Types: Ensure Price, Review Count, and Rating are numeric.
 
-4.Exploratory Data Analysis(EDA):Performing EDA to et a visual representation of the dataset.
+ 4.Exploratory Data Analysis(EDA):Performing EDA to et a visual representation of the dataset.
 
-5.Model Training and Evaluation 
+ 5.Model Training and Evaluation 
 Split the data into training and testing sets
 Train the model using Linear Reggression,Logistic Reression and SVM.
 Evaluate Model: Assess the model's performance using metrics like accuracy, precision, recall, and F1 score.
@@ -24,7 +24,7 @@ Non-linear Relationships: SVM can capture non-linear relationships between featu
 Margin Maximization: SVM focuses on maximizing the margin between classes, which enhances generalization.
 Kernel Trick: Allows for complex decision boundaries using different kernels, providing flexibility.
 
-6.Decision Boundary Visualization
+ 6.Decision Boundary Visualization
 Visualize Decision Boundary: For a simplified 2D plot, consider only two features(between prices and rating,recommended and not recommended).
 
 7. Product Recommendation
