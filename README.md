@@ -1,26 +1,25 @@
 # PRS-app
-Product Recommendation System
-1. Project Objective
-Goal: Develop a product recommendation system to suggest top products based on user preferences using the Nykaa product reviews dataset.
+Nykaa Product Recommendation System
+This project aims to develop a robust and effective product recommendation system for Nykaa, an online beauty and wellness retailer. The primary goal is to assist users in finding suitable products based on their preferences and to provide insightful analysis of the product data.
 
-2. Data Preparation
-Load the Data: Import the dataset into a Pandas DataFrame.
-Inspect the Data: Check the first few rows, data types, and summary statistics to understand the data structure.
+Aim of the Project
+The main objectives of this project are:
 
-3. Data Cleaning
-Drop Irrelevant Columns: Remove columns that are not necessary for the analysis.
-Handle Missing Values: Impute or drop rows with missing values in essential columns.
-Convert Data Types: Ensure Price, Review Count, and Rating are numeric.
-
-4. Exploratory Data Analysis (EDA):Performing EDA to get a visual representation of the dataset.
-
-5. Model Training and Evaluation
-Split the data into training and testing sets Train the model using Linear Regression,Logistic Regression and SVM.
-Evaluate Model: Assess the model's performance using metrics like accuracy, precision, recall, and F1 score. COMPARISON WITH OTHER MODELS: Justification: SVM was chosen over linear and logistic regression due to: Non-linear Relationships: SVM can capture non-linear relationships between features better. Margin Maximization: SVM focuses on maximizing the margin between classes, which enhances generalization. Kernel Trick: Allows for complex decision boundaries using different kernels, providing flexibility.
-
-6. Decision Boundary Visualization:For a simplified 2D plot, consider only two features(between prices and rating,recommended and not recommended).
-
-7. Product Recommendation
-User Input: Allow the user to input a product brand.
-Recommend Products: Filter and sort the products by the given brand and recommend the top 10 based on predicted scores.
-Summary:The SVM-based product recommendation system efficiently identifies top products based on user preferences, leveraging SVM's strengths in handling non-linear relationships and maximizing class separation margins. 
+Recommendation System: Provide personalized product recommendations to users based on their input preferences.
+Exploratory Data Analysis (EDA): Offer insightful visualizations and statistical summaries to understand the dataset better.
+User-Friendly Interface: Develop an easy-to-use interface for users to interact with the recommendation system and explore the data.
+What We Did
+Data Loading: Loaded the dataset Nykaa_Product_Review.csv using Pandas.
+Data Cleaning: Converted necessary columns to numeric types and handled errors to ensure data integrity.
+Dataset Overview: Displayed the first few rows and a statistical summary of the dataset to give an overview of the data.
+Exploratory Data Analysis (EDA):
+Distribution of Product Prices: Created a histogram to show the distribution of product prices.
+Product Category Distribution: Generated a bar chart to display the count of products in each category.
+Distribution of Product Ratings: Created a histogram to show the distribution of product ratings.
+Price vs Rating Scatter Plot: Developed a scatter plot to visualize the relationship between product prices and ratings.
+Most Reviewed Products: Identified and displayed the top 10 most reviewed products.
+User Input Collection: Created a sidebar form to collect user preferences for product brand, category, and maximum price.
+Product Recommendations: Filtered the dataset based on user inputs and displayed the recommended products.
+Visualization with Plotly: Used Plotly for interactive and visually appealing charts.
+User Interface: Built the entire application using Streamlit to provide a user-friendly web interface.
+Running the App: Provided instructions for running the app locally and on Hugging Face Spaces for broader accessibility.
